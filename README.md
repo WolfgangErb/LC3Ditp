@@ -1,28 +1,51 @@
 # LD3Ditp
-3D polynomial interpolation on the nodes of degenerate 3D-Lissajous curves
+Trivariate polynomial interpolation on Lissajous-Chebyshev nodes
 --------------------------------------------------------------------------------
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<img src="img/Lissajous3D.jpg" width="350"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="img/indexset3D.png" width="370">
 
-Version: 0.2 (01.07.2016)
+Version: 0.3 (01.10.2017)
 
-Developed by <a href="http://www.math.uni-luebeck.de/mitarbeiter/dencker/index.php"> Peter Dencker</a> and 
-<a href="http://math.hawaii.edu/~erb/index.html"> Wolfgang Erb</a>
+Written by <a href="http://www.math.uni-luebeck.de/mitarbeiter/dencker/index.php"> Peter Dencker</a> and <a href="http://math.hawaii.edu/~erb/index.html"> Wolfgang Erb</a>
 
 
 Description
 -----------
 
-The package LD3Ditp contains a Matlab implementation for 3D polynomial interpolation on 
-the node points LD of degenerate 3D-Lissajous curves. 
+The package LC3Ditp contains a Matlab implementation for trivariate polynomial interpolation on 
+general Lissajous-Chebyshev points. This package syntesizes various interpolation schemes known in the literature. 
 
-The main test file for interpolation is
-main_example.m
 
-For plotting 3D degenerate Lissajous curves, the LD points as well as the index sets used in the 
-polynomial interpolation use plot_Lissajous3D.m
+<br><br>
+
+The general description of the Lissajous-Chebyshev nodes and the polynomial interpolation is provided in the article [1]. 
+
+- To **test** the package use **main_example.m**
+
+- To **plot** the node points and the spectra use **plot_LC3D.m**
+
+<br><br>
 
 <img src="img/testfun1.jpg" width="400"> &nbsp;&nbsp;&nbsp; <img src="img/testfun2.jpg" width="400">
+
+As special cases it contains the following interpolation schemes:
+
+- The Morrow-Patterson-Xu points for the frequency parameters (m,m,m) [3].
+- Interpolation schemes based on single degenerate Lissajous curves for 
+the frequency parameter (n,m,p), where n,m and p are relatively prime numbers [5]. 
+
+
+Citation and Credits
+--------------------
+
+The theory for this code was developed by Peter Dencker (Institute of Mathematics, University of Luebeck) and Wolfgang Erb (Department of Mathematics, University of Hawaii at Manoa). The general construction of the interpolation
+scheme is provided in
+
+
+*   [1] &nbsp; Dencker, P. and Erb, W. <br>
+    <i> A unifying theory for multivariate polynomial interpolation on general Lissajous-Chebyshev nodes </i> <br>
+    arXiv:1711.soon [math.NA] (2017) 
+
 
 
 Citation and Credits
@@ -34,8 +57,18 @@ The theory related to this package was developed by P. Dencker and W. Erb in
 <li> Dencker, P. and Erb, W. <br>
  <i> Multivariate polynomial interpolation on Lissajous-Chebyshev nodes </i> <br> <a href="http://arxiv.org/pdf/1511.04564"> arXiv:1511.04564 [math.NA]</a> (2016)</li>
 </ul>
-    
 
+
+Further references
+
+*   [2] &nbsp; Dencker, P. and Erb, W. <br>
+    <i> Multivariate polynomial interpolation on Lissajous-Chebyshev nodes </i> <br>
+    J. Approx. Theory 219 (2017), 15-45
+
+*   [3] &nbsp; De Marchi, S., Vianello, M. and Xu, Y. <br>
+    <i> ew cubature formulae and hyperinterpolation in three variables </i> <br>
+    BIT 49 (1) (2009), 55–73.
+       
 
 The file plotregion.m was written by Per Bergström 2006-01-16. In this package it is used as 
 an auxiliary program in plot_Lissajous3D.m to plot the polygonal boundary of the index sets. 
@@ -43,12 +76,12 @@ an auxiliary program in plot_Lissajous3D.m to plot the polygonal boundary of the
 License
 -------
 
-Copyright (C) 2016 by Peter Dencker and Wolfgang Erb
+Copyright (C) 2017 Peter Dencker, Wolfgang Erb
 
-This package was developed by Peter Dencker and Wolfgang Erb 
-at the Institute of Mathematics, University of Luebeck.
+This software was written by Peter Dencker and Wolfgang Erb 
+and developed at the University of Luebeck and the University of Hawaii
 
-LD3Ditp is free software: you can redistribute it and/or modify
+LC2Ditp is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
