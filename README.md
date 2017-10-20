@@ -30,9 +30,9 @@ The general description of the Lissajous-Chebyshev nodes and the polynomial inte
 
 As special cases it contains the following interpolation schemes:
 
-- The Morrow-Patterson-Xu points for the frequency parameters (m,m,m) [3].
+- The 3D Morrow-Patterson-Xu points for the frequency parameters (m,m,m) [2].
 - Interpolation schemes based on single degenerate Lissajous curves for 
-the frequency parameter (n,m,p), where n,m and p are relatively prime numbers [5]. 
+the frequency parameter (n,m,p), where n,m and p are relatively prime numbers [3]. 
 
 
 Citation and Credits
@@ -47,18 +47,6 @@ scheme is given in
     arXiv:1711.soon [math.NA] (2017) 
 
 
-
-Citation and Credits
---------------------
-
-The theory related to this package was developed by P. Dencker and W. Erb in
-
-<ul>
-<li> Dencker, P. and Erb, W. <br>
- <i> Multivariate polynomial interpolation on Lissajous-Chebyshev nodes </i> <br> <a href="http://arxiv.org/pdf/1511.04564"> arXiv:1511.04564 [math.NA]</a> (2016)</li>
-</ul>
-
-
 Further references
 
 *   [2] &nbsp; Dencker, P. and Erb, W. <br>
@@ -66,7 +54,7 @@ Further references
     J. Approx. Theory 219 (2017), 15-45
 
 *   [3] &nbsp; De Marchi, S., Vianello, M. and Xu, Y. <br>
-    <i> ew cubature formulae and hyperinterpolation in three variables </i> <br>
+    <i> New cubature formulae and hyperinterpolation in three variables </i> <br>
     BIT 49 (1) (2009), 55–73.
        
 
