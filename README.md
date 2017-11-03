@@ -30,7 +30,7 @@ The general description of the Lissajous-Chebyshev nodes and the polynomial inte
 
 As special cases it contains the following interpolation schemes:
 
-- The 3D Morrow-Patterson-Xu points for the frequency parameters (m,m,m) [2].
+- Interpolation on the 3D Morrow-Patterson-Xu points for the frequency parameters (m,m,m) considered in [2].
 - Interpolation schemes based on single degenerate Lissajous curves for 
 the frequency parameter (n,m,p), where n,m and p are relatively prime numbers [3]. 
 
