@@ -1,4 +1,4 @@
-# LD3Ditp
+# LC3Ditp
 3D polynomial interpolation on general Lissajous-Chebyshev nodes
 --------------------------------------------------------------------------------
 
@@ -73,7 +73,7 @@ Copyright (C) 2016 Peter Dencker, Wolfgang Erb
 This software was written by Peter Dencker and Wolfgang Erb 
 and developed at the University of Luebeck and the University of Hawaii
 
-LC2Ditp is free software: you can redistribute it and/or modify
+LC3Ditp is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
