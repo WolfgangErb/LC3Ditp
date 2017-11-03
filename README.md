@@ -1,5 +1,5 @@
 # LD3Ditp
-Trivariate polynomial interpolation on Lissajous-Chebyshev nodes
+Trivariate polynomial interpolation on general Lissajous-Chebyshev nodes
 --------------------------------------------------------------------------------
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<img src="img/Lissajous3D.jpg" width="350"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="img/indexset3D.png" width="370">
