@@ -63,7 +63,7 @@ Further references
        
 
 The file plotregion.m was written by Per Bergström 2006-01-16. In this package it is used as 
-an auxiliary program in plot_LC3Dpts.m to plot the polygonal boundary of the index sets. 
+an auxiliary program in plot_LC3Dpts.m to plot the polyhedral boundary of the spectral index sets. 
 
 License
 -------
