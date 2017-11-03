@@ -22,7 +22,7 @@ The general description of the Lissajous-Chebyshev nodes and the polynomial inte
 
 - To **test** the package use **main_example.m**
 
-- To **plot** the node points and the spectra use **plot_LC3D.m**
+- To **plot** the node points and the spectra use **plot_LC3Dpts.m**
 
 <br><br>
 
@@ -59,7 +59,7 @@ Further references
        
 
 The file plotregion.m was written by Per Bergström 2006-01-16. In this package it is used as 
-an auxiliary program in plot_Lissajous3D.m to plot the polygonal boundary of the index sets. 
+an auxiliary program in plot_LC3Dpts.m to plot the polygonal boundary of the index sets. 
 
 License
 -------
