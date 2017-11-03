@@ -4,7 +4,7 @@ Trivariate polynomial interpolation on Lissajous-Chebyshev nodes
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<img src="img/Lissajous3D.jpg" width="350"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="img/indexset3D.png" width="370">
 
-Version: 0.3 (01.10.2017)
+Version: 0.3 (01.10.2016)
 
 Written by <a href="http://www.math.uni-luebeck.de/mitarbeiter/dencker/index.php"> Peter Dencker</a> and <a href="http://math.hawaii.edu/~erb/index.html"> Wolfgang Erb</a>
 
@@ -44,7 +44,7 @@ scheme is given in
 
 *   [1] &nbsp; Dencker, P. and Erb, W. <br>
     <i> A unifying theory for multivariate polynomial interpolation on general Lissajous-Chebyshev nodes </i> <br>
-    arXiv:1711.soon [math.NA] (2017) 
+    arXiv:1711.00557v1 [math.NA] (2017) 
 
 
 Further references
@@ -64,7 +64,7 @@ an auxiliary program in plot_Lissajous3D.m to plot the polygonal boundary of the
 License
 -------
 
-Copyright (C) 2017 Peter Dencker, Wolfgang Erb
+Copyright (C) 2016 Peter Dencker, Wolfgang Erb
 
 This software was written by Peter Dencker and Wolfgang Erb 
 and developed at the University of Luebeck and the University of Hawaii
