@@ -2,7 +2,7 @@
 Trivariate polynomial interpolation on general Lissajous-Chebyshev nodes
 --------------------------------------------------------------------------------
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<img src="img/Lissajous3D.jpg" width="350"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="img/indexset3D.png" width="370">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<img src="img/3Dpicture1.jpg" width="350"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="img/3Dpicture2.png" width="370">
 
 Version: 0.3 (01.10.2016)
 
@@ -26,13 +26,17 @@ The general description of the Lissajous-Chebyshev nodes and the polynomial inte
 
 <br><br>
 
-<img src="img/testfun1.jpg" width="400"> &nbsp;&nbsp;&nbsp; <img src="img/testfun2.jpg" width="400">
+<img src="img/LC235.jpg" width="400"> &nbsp;&nbsp;&nbsp; <img src="img/gamma235.jpg" width="400">
 
 As special cases it contains the following interpolation schemes:
 
 - The 3D Morrow-Patterson-Xu points for the frequency parameters (m,m,m) [2].
 - Interpolation schemes based on single degenerate Lissajous curves for 
 the frequency parameter (n,m,p), where n,m and p are relatively prime numbers [3]. 
+
+<br><br>
+
+<img src="img/LC333.jpg" width="400"> &nbsp;&nbsp;&nbsp; <img src="img/gamma333.jpg" width="400">
 
 
 Citation and Credits
